@@ -18,7 +18,7 @@ void forward_display(std::vector <Coordinate> &coordinateList, int max_coord);
 void backward_display(std::vector <Coordinate> &coordinateList, int max_coord);
 void delete_coordinate(std::vector <Coordinate> &coordinateList, int coord_id_to_delete);
 int list_length(std::vector <Coordinate> &coordinateList);
-void closest_coord(std::vector <Coordinate> &coordinateList, int starting_coord);
+void closest_coord(std::vector <Coordinate> &coordinateList, int current_size_of_vector);
 
 
 /*
